@@ -1,16 +1,18 @@
-## Hi there 👋
+# 👋 Hi, I’m Nimit Bhandari
 
-<!--
-**bnimit/bnimit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a senior full stack engineer with 12+ years of experience building scalable web applications and backend systems. I’ve worked across FinTech, SaaS, and Enterprise Infrastructure with technologies like **Golang**, **Ruby on Rails**, **React**, and **Next.js**.
 
-Here are some ideas to get you started:
+## 💼 What I Do
+- 🔨 Architect and develop performant web applications (REST/GraphQL APIs, background jobs, frontend interactivity)
+- 💳 Integrate systems with third-party services (Stripe, ArangoDB, Dockerized microservices)
+- 🚀 Drive deployment automation (CI/CD), DevOps, and cloud-first strategies
+- 🧠 Translate complex product ideas into real-world, tested features
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+```yaml
+Languages:  Golang, Ruby, JavaScript (ES6+), HTML/CSS
+Backend:    Ruby on Rails, Go (net/http, Echo, Fiber), Sidekiq
+Frontend:   React, Next.js, Turbo, Stimulus
+Databases:  PostgreSQL, ArangoDB, MySQL
+DevOps:     Docker, GitHub Actions, GitLab CI, Linux, Nginx
+Tools:      Swagger, Postman, Figma, Jira, VSCode, tmux
