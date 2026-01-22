@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Nimit Bhandari
+# 👋 Hi, I’m Nimitt Bhandari
 
 I'm a senior full stack engineer with 12+ years of experience building scalable web applications and backend systems. I’ve worked across FinTech, SaaS, and Enterprise Infrastructure with technologies like **Golang**, **Ruby on Rails**, **React**, and **Next.js**.
 
