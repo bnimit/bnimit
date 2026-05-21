@@ -14,13 +14,12 @@
 
 ### What I work on
 
-**AI & Agents** — Autonomous systems with LLMs: multi-agent workflows, tool-use pipelines, and developer tooling that makes AI-assisted engineering practical.
-
-**Open Source** — Core maintainer in the [Re:Earth](https://github.com/reearth) ecosystem. Built [**ygo**](https://github.com/reearth/ygo) from scratch — a pure-Go implementation of the Yjs CRDT protocol with full binary compatibility across JS and Rust runtimes. Active across **resium**, **react-align**, **libxml2-rs**, and other projects.
-
-**Systems & Performance** — Rust for memory safety where it matters. Async Python and Go for high-throughput backends. Obsessive about latency and getting the architecture right.
-
-**Quantitative Trading** — Algorithmic systems combining signal processing, risk management, and real-time market data — strategy logic through execution engines to live dashboards.
+| | |
+|:--|:--|
+| **AI & Agents** | Autonomous systems with LLMs — multi-agent workflows, tool-use pipelines, and developer tooling that makes AI-assisted engineering practical |
+| **Open Source** | Core maintainer in the [Re:Earth](https://github.com/reearth) ecosystem. Built [**ygo**](https://github.com/reearth/ygo) from scratch — a pure-Go Yjs CRDT implementation with full binary compatibility across JS and Rust runtimes. Active across **resium**, **react-align**, **libxml2-rs** |
+| **Systems & Perf** | Rust for memory safety where it matters. Async Python and Go for high-throughput backends. Obsessive about latency and getting the architecture right |
+| **Quant Trading** | Algorithmic systems combining signal processing, risk management, and real-time market data — strategy logic through execution engines to live dashboards |
 
 ---
 
