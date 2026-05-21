@@ -26,28 +26,17 @@
 
 ### Tech
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,python,typescript,rust,ruby&theme=dark" alt="Languages" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,rails&theme=dark" alt="Frameworks" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,sqlite,redis,docker,linux,githubactions,nginx&theme=dark" alt="Infra" />
-  </a>
-</p>
+```
+Languages        Go · Python · TypeScript · Rust · Ruby · JavaScript
+AI / ML          Claude API · LLM Agents · Multi-Agent Systems · RAG · Prompt Engineering
+Backend          FastAPI · Ruby on Rails · Gin · Fiber · Echo · Sidekiq · SQLAlchemy
+Frontend         React · Next.js · Tailwind CSS · shadcn/ui · Turbo · Stimulus
+Data & Storage   PostgreSQL · SQLite · Redis · ArangoDB · MySQL · Async I/O
+DevOps & Infra   Docker · GitHub Actions · GitLab CI · Linux · Nginx · VPS · CI/CD
+Tools            Claude Code · Git · Jira · Figma · Postman · Swagger · tmux
+```
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bnimit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&hide_title=true" height="160" />
-  <img src="https://streak-stats.demolab.com?user=bnimit&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" height="160" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bnimit&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" width="95%" />
