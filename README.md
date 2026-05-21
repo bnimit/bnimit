@@ -14,7 +14,7 @@
 
 ### What I work on
 
-| | |
+| Area | Expertise |
 |:--|:--|
 | **AI & Agents** | Autonomous systems with LLMs — multi-agent workflows, tool-use pipelines, and developer tooling that makes AI-assisted engineering practical |
 | **Open Source** | Core maintainer in the [Re:Earth](https://github.com/reearth) ecosystem. Built [**ygo**](https://github.com/reearth/ygo) from scratch — a pure-Go Yjs CRDT implementation with full binary compatibility across JS and Rust runtimes. Active across **resium**, **react-align**, **libxml2-rs** |
