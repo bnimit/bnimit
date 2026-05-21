@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=180&section=header&fontSize=0" />
+<img width="100%" src="./aurora-header.svg" />
 
 <p align="center">
   <a href="https://github.com/bnimit">
@@ -41,4 +41,4 @@ Tools            Claude Code · Git · Jira · Figma · Postman · Swagger · tm
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bnimit&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" width="95%" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=100&section=footer&fontSize=0" />
+<img width="100%" src="./aurora-footer.svg" />

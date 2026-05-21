@@ -1,0 +1,63 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="aurora-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="50" />
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.06" />
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply" />
+    </filter>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+
+  <!-- Aurora layer 1: violet -->
+  <ellipse cx="250" cy="120" rx="450" ry="180" fill="#8b5cf6" opacity="0.30" filter="url(#aurora-blur)">
+    <animate attributeName="cx" values="250;700;1000;400;250" dur="20s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.30;0.20;0.35;0.25;0.30" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="ry" values="180;140;200;160;180" dur="16s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Aurora layer 2: blue -->
+  <ellipse cx="800" cy="80" rx="400" ry="160" fill="#3b82f6" opacity="0.28" filter="url(#aurora-blur)">
+    <animate attributeName="cx" values="800;350;150;600;800" dur="24s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.28;0.35;0.20;0.30;0.28" dur="14s" repeatCount="indefinite" />
+    <animate attributeName="ry" values="160;200;140;180;160" dur="18s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Aurora layer 3: pink -->
+  <ellipse cx="600" cy="140" rx="350" ry="150" fill="#ec4899" opacity="0.22" filter="url(#aurora-blur)">
+    <animate attributeName="cx" values="600;200;900;500;600" dur="22s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.22;0.30;0.18;0.26;0.22" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="ry" values="150;170;130;160;150" dur="14s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Aurora layer 4: secondary violet (depth) -->
+  <ellipse cx="1000" cy="60" rx="300" ry="120" fill="#a78bfa" opacity="0.18" filter="url(#aurora-blur)">
+    <animate attributeName="cx" values="1000;500;100;700;1000" dur="26s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.18;0.12;0.22;0.15;0.18" dur="16s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Aurora layer 5: cyan accent -->
+  <ellipse cx="400" cy="100" rx="280" ry="130" fill="#06b6d4" opacity="0.15" filter="url(#aurora-blur)">
+    <animate attributeName="cx" values="400;900;600;200;400" dur="28s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.15;0.22;0.10;0.18;0.15" dur="18s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Subtle film grain overlay -->
+  <rect width="100%" height="100%" filter="url(#grain)" opacity="0.4" />
+
+  <!-- Bottom fade to match page background -->
+  <rect width="100%" height="60" y="140" fill="url(#bottom-fade)" />
+  <defs>
+    <linearGradient id="bottom-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+</svg>
